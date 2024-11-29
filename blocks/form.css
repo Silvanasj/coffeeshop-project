@@ -1,0 +1,45 @@
+fieldset {
+  border: 0;
+}
+
+.form__label {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  display: block;
+}
+
+.form__input_name,
+.form__input_number,
+.form__input_datetime,
+.form__input_email {
+  margin-top: 8px;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  height: 60px;
+  border: 0;
+  padding-left: 20px;
+  box-sizing: border-box;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.form__input::placeholder {
+  padding-bottom: 15px;
+}
+
+.form__label_checkbox {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-bottom: 120px;
+}
+
+.form__input_checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
